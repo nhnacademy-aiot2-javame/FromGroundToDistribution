@@ -55,8 +55,8 @@ jobs:
           script_stop: true
           script: "test/startup.sh"
 
-      - name: Setup SSH key
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
+      #- name: Setup SSH key
+       # run: |
+        #  mkdir -p ~/.ssh
+         # echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          #chmod 600 ~/.ssh/id_rsa
